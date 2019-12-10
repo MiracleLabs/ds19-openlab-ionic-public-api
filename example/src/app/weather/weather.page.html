@@ -1,0 +1,100 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title >Weather</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+
+<ion-content >
+  <div class="background">
+  <!--Display only if the data is loaded -->
+  <ion-grid *ngIf = "weather">
+    <ion-row>
+      <ion-col width-50 offset-25>
+        <!-- Displaying weather location -->
+        <div class="textColor">
+        <h5 class="ion-text-center">{{ weather.request.query }}</h5>
+        </div>
+        <!--Displaying weather icon -->
+        <div class="icon"  class="ion-text-center">
+          <img src="{{weather.current.weather_icons}}">
+        </div>
+
+        <div class="textColor" >
+          <h1 class="ion-text-center">{{weather.current.temperature}}C</h1>
+        </div>
+        <!-- Displaying weather description -->
+        <div class="textColor">
+        <h5 class="ion-text-center">{{weather.current.weather_descriptions}}</h5>
+        </div>
+        <!-- Displaying temperature in Farenhite-->
+        <div class="textColor">
+        <h6 class="ion-text-center">Last updated</h6>
+        </div>
+        <div class="textColor"  class="ion-text-center">
+          <h5 class="textColor">{{weather.location.localtime}}</h5>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <br>
+    <div text-center>
+      <ion-row>
+        <ion-col>
+          <strong class="textColor">Pressure</strong>
+        </ion-col>
+        <ion-col>
+          <strong class="textColor"> {{weather.current.pressure}}</strong>
+        </ion-col>
+
+      </ion-row>
+      <br>
+      <ion-row>
+        <ion-col>
+          <strong class="textColor">Humidity</strong>
+        </ion-col>
+        <ion-col>
+          <strong class="textColor"> {{weather.current.humidity}}</strong>
+        </ion-col>
+
+      </ion-row>
+      <br>
+      <ion-row>
+        <ion-col>
+          <strong class="textColor">Wind Speed(KPH)</strong>
+        </ion-col>
+        <ion-col>
+          <strong class="textColor"> {{weather.current.wind_speed}}</strong>
+        </ion-col>
+
+      </ion-row>
+      <br>
+      <ion-row>
+        <ion-col>
+          <strong class="textColor">Visibility</strong>
+        </ion-col>
+        <ion-col>
+          <strong class="textColor"> {{weather.current.visibility}}</strong>
+        </ion-col>
+
+      </ion-row>
+
+
+    </div>
+
+  </ion-grid>
+
+</div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+    <ion-title  class="ion-text-center"> Built by
+      <strong>Miracle’s</strong>
+      <strong style="color:#00bfff;"> Innovation Labs</strong>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>  

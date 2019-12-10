@@ -1,0 +1,39 @@
+<ion-header>
+
+    <ion-toolbar color="primary">
+      <ion-title  >location</ion-title>
+    </ion-toolbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding >
+    <ion-grid>
+      <ion-row>
+        <ion-col width-100>
+          <ion-list>
+              <form #form="ngForm" (ngSubmit)="saveForm(form)" novalidate>
+                  <ion-item>
+                    <ion-label>Place</ion-label>
+                    <ion-input type="text" required [(ngModel)]="location.place" name="place"></ion-input>
+                  </ion-item>
+                  
+                  <br>
+                  <ion-button type="submit" block>SAVECHANGES</ion-button>
+                </form>
+          </ion-list>
+  
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar color="dark">
+      <ion-title text-center> Built by
+        <strong>Miracle’s</strong>
+        <strong style="color:#00bfff;"> Innovation Labs</strong>
+      </ion-title>
+    </ion-toolbar>
+  </ion-footer>

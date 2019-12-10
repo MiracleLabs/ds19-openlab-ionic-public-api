@@ -1,7 +1,7 @@
 {
-  "name": "weatherapp",
+  "name": "ionic public api",
   "integrations": {
     "cordova": {}
   },
-  "type": "ionic-angular"
+  "type": "angular"
 }

@@ -1,4 +1,4 @@
-# DS18 Open Lab | Connecting Your Ionic App to a Public API Service
+# DS19 Open Lab | Connecting Your Ionic App to a Public API Service
 
 This repository contains the lab for creating a Hybrid Mobile App using Ionic 3 Framewok, an Angular-based Mobile Framework.  It is one of the labs brought to you by Miracle's Innovation Labs.
 
@@ -14,13 +14,13 @@ The following are the technologies that are used in this lab. Any prior knowledg
 
 • Node JS and NPM
 
-• HTML/CSS/JavaScript
+• HTML/CSS/TypeScript
 
 ## Important Links
 
 • Download Visual Studio Code  - https://code.visualstudio.com/download
 
-• Wunderground public weather API
+• weatherstack public weather API
 
 ## Repository Contents
 
@@ -36,6 +36,6 @@ The repository contains detailed documentation and steps for understanding and c
 
 The following people have contributed to the development and delivery of this lab. This Lab is created and owned by the Miracle Innovation Labs Team.
 
-• Sujan Paul - NextGen Research Associate
+•  Rohit Kumar - Mobile Research Associate
 
-• Vijay Perambakam - Software Developer
+•  Manikanta Korada - Mobile Research Associate
