@@ -1,6 +1,6 @@
 # DS19 Open Lab | Connecting Your Ionic App to a Public API Service
 
-This repository contains the lab for creating a Hybrid Mobile App using Ionic 3 Framewok, an Angular-based Mobile Framework.  It is one of the labs brought to you by Miracle's Innovation Labs.
+This repository contains the lab for creating a Hybrid Mobile App using Ionic Framework, an Angular-based Mobile Framework.  It is one of the labs brought to you by Miracle's Innovation Labs.
 
 ## Technology Overview
 
@@ -20,7 +20,7 @@ The following are the technologies that are used in this lab. Any prior knowledg
 
 • Download Visual Studio Code  - https://code.visualstudio.com/download
 
-• weatherstack public weather API
+• Weatherstack Public Weather API
 
 ## Repository Contents
 
